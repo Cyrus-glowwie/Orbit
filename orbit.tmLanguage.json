@@ -1,0 +1,28 @@
+{
+  "name": "Orbit",
+  "scopeName": "source.orb",
+  "fileTypes": ["orb"],
+  "patterns": [
+    {
+      "name": "keyword.control.orb",
+      "match": "\\b(let|func|loop|orbital|return|if|else|true|false)\\b"
+    },
+    {
+      "name": "support.function.orb",
+      "match": "\\b(log|serve|orb)\\b"
+    },
+    {
+      "name": "string.quoted.double.orb",
+      "begin": "\"",
+      "end": "\""
+    },
+    {
+      "name": "constant.numeric.orb",
+      "match": "\\b[0-9]+\\b"
+    },
+    {
+      "name": "comment.line.orb",
+      "match": "#.*$"
+    }
+  ]
+}
